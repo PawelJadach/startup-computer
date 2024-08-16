@@ -1,36 +1,19 @@
+import About from "@/components/About";
+import Clients from "@/components/Clients";
+import { Contact } from "@/components/Contact";
+import Hero from "@/components/Hero";
+import Project from "@/components/Project";
+import Technology from "@/components/Technology";
+
 export default function Home() {
 	return (
-		<main className="container">
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-				laboriosam fugit dolore qui vel sequi quod quia iste velit at
-				aut molestiae iusto quidem consequatur animi, consectetur
-				impedit minima maiores.
-			</p>
+		<main>
+			<Hero />
+			<Clients />
+			<About />
+			<Project />
+			<Technology />
+			<Contact />
 		</main>
 	);
 }

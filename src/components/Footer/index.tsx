@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
 	return (
 		<div className="bg-dark">
-			<div className="container mt-20 md:mt-40 flex flex-col md:flex-row gap-6 items-center justify-between py-6">
+			<div className="container flex flex-col md:flex-row gap-6 items-center justify-between py-6">
 				<div className="flex gap-3">
 					<span className="text-light text-sm">Made by</span>
 					<a href="https://www.pixel-blaze.com">
@@ -27,7 +27,7 @@ const Footer = () => {
 				</div>
 
 				<p className="text-sm text-light text-center">
-					© 2024 Prawa autorskie. Wszelkie prawa zastrzeżone.
+					© 2024 Copyright. All rights reserved.
 				</p>
 			</div>
 		</div>

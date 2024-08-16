@@ -9,11 +9,11 @@ interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {
 const Button = ({ children, ...rest }: ButtonProps) => {
 	return (
 		<button
+			{...rest}
 			className={cn(
-				"uppercase bg-primary rounded-lg px-10 py-3 md:text-lg hover:bg-primary/90 transition-all font-bold tracking-wider disabled:bg-primary/30 disabled:text-light/40 disabled:cursor-not-allowed",
+				"font-semibold lowercase text-light text-2xl px-[45px] py-3 gradientButton rounded-[100px]",
 				rest.className,
 			)}
-			{...rest}
 		>
 			{children}
 		</button>

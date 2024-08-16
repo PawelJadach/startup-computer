@@ -4,7 +4,6 @@ import { useRef } from "react";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
-import NavLogo from "./NavLogo";
 import NavLink from "./NavLink";
 import { navLinks } from "@/config/navbar";
 
@@ -19,15 +18,7 @@ export const NavMobile = () => {
 			ref={ref}
 			className="lg:hidden p-6 fixed top-0 left-0 right-0 bg-dark z-10 max-w-[100vw]"
 		>
-			<div className="flex justify-between">
-				<div
-					onClick={() => {
-						if (isOpen) setOpen(false);
-					}}
-				>
-					<NavLogo />
-				</div>
-
+			<div className="flex justify-end">
 				<Hamburger
 					toggled={isOpen}
 					size={24}

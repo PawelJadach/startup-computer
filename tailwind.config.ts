@@ -10,11 +10,11 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				dark: "black",
+				dark: "#16124C",
 				light: "#fff",
 				secondaryLight: "#e5e5e5",
-				primary: "#fca311",
-				secondary: "#14213d",
+				primary: "#EC008C",
+				secondary: "#FBC112",
 			},
 			container: {
 				padding: {
