@@ -26,7 +26,7 @@ const About = () => {
 					data-aos-delay="400"
 					className="gradientButtonSecondary"
 				>
-					<a href="#contact">start project</a>
+					<a href="#contact">get a quote</a>
 				</Button>
 			</div>
 		</div>

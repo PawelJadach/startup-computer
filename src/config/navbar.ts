@@ -11,7 +11,7 @@ export const navLinks: NavLinkProps[] = [
 	},
 	{
 		href: "#project",
-		label: "Project",
+		label: "Our Product",
 	},
 	{
 		href: "#team",

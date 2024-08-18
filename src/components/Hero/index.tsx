@@ -32,7 +32,7 @@ const Hero = () => {
 						for the medical industry.
 					</p>
 					<Button data-aos="fade-right" data-aos-delay="600">
-						<a href="#contact">start project</a>
+						<a href="#contact">get a quote</a>
 					</Button>
 				</div>
 				<div data-aos="fade-left" data-aos-delay="200">

@@ -58,7 +58,7 @@ const Technology = () => {
 					data-aos-delay="1200"
 					className="gradientButtonSecondary"
 				>
-					<a href="#contact">start project</a>
+					<a href="#contact">get a quote</a>
 				</Button>
 			</div>
 		</div>
