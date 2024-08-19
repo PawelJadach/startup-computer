@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { EmailIcon, PersonIcon } from "../ui/Icons";
+import { EmailIcon, LinkedinIcon } from "../ui/Icons";
 
 export const Contact = () => {
 	return (
@@ -14,17 +14,21 @@ export const Contact = () => {
 				/>
 				<div className="space-y-3">
 					<h1 className="text-light">Contact</h1>
-					<div className="flex gap-4 items-center">
-						<PersonIcon />
-						<div>
-							<h3 className="text-light">John Doe</h3>
-							<h4 className="text-light">Technology Director</h4>
-						</div>
-					</div>
-					<div className="flex gap-4 items-center">
+					<a
+						target="_blank"
+						href="https://www.linkedin.com/company/startup-computer/"
+						className="flex gap-4 items-center"
+					>
+						<LinkedinIcon />
+						<h3 className="text-light">linkedin</h3>
+					</a>
+					<a
+						href="mailto:hello@startup.computer"
+						className="flex gap-4 items-center"
+					>
 						<EmailIcon />
 						<h3 className="text-light">hello@startup.computer</h3>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
